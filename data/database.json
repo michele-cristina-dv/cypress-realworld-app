@@ -76,81 +76,37 @@
       "modifiedAt": "2024-03-07T00:07:36.510Z"
     },
     {
-      "id": "70t4CSNIp",
-      "uuid": "1074d4f5-7f6c-439f-a2a0-b3003130b9e6",
-      "firstName": "Novo",
-      "lastName": "Usuário",
-      "username": "usuario1756508486652",
-      "password": "$2a$10$wMdXjWIKdwNUwO8UjJMnuOqtluAoWfZICldDfx0GgNhlQMt.tAOWC",
+      "id": "L4ag4XhZi",
+      "uuid": "d6877e91-82b1-4e71-8777-9841aeff5461",
+      "firstName": "Gabriel",
+      "lastName": "Scoot",
+      "username": "GabrielScoot_",
+      "password": "$2a$10$ikPRtYvg/z4PneRPwqKdY.hRlYhXPz14pEsVJqeAtWKXTa/GObpXq",
       "balance": 0,
-      "createdAt": "2025-08-29T23:01:55.097Z",
-      "modifiedAt": "2025-08-29T23:01:55.097Z"
+      "createdAt": "2025-09-06T01:35:05.852Z",
+      "modifiedAt": "2025-09-06T01:35:05.852Z"
     },
     {
-      "id": "QvZ-8zx0b",
-      "uuid": "704534a3-a1c6-4395-b3cd-3d0222ec0d83",
-      "firstName": "Novo",
-      "lastName": "Usuário",
-      "username": "usuario1756509124504",
-      "password": "$2a$10$gYSQhNFbBWQakMeuvKJAXuhxDfZiZjh0bhiH95wBwEZLDJqT4ZoFe",
+      "id": "RrMU22FCR",
+      "uuid": "ab6330f1-e84c-4e7d-8f8e-b5a9797cefb5",
+      "firstName": "Gabriel",
+      "lastName": "Scoot",
+      "username": "GabrielScoot_",
+      "password": "$2a$10$tp48I3fhIj.a65sHJGdvxOb894WKRnkV5apn7pH/DmTMpd4ye449e",
       "balance": 0,
-      "createdAt": "2025-08-29T23:12:35.740Z",
-      "modifiedAt": "2025-08-29T23:12:35.740Z"
+      "createdAt": "2025-09-06T01:55:26.125Z",
+      "modifiedAt": "2025-09-06T01:55:26.125Z"
     },
     {
-      "id": "GGYbWs3Je",
-      "uuid": "d4df02eb-3ac0-48fc-8185-f91a073aece2",
-      "firstName": "Novo",
-      "lastName": "Usuário",
-      "username": "usuario1756509785726",
-      "password": "$2a$10$0KogAl9VrZ0HLQ52gURQj.pEysCjO/cUvOL6wwmosgGsUmXSt5VH2",
+      "id": "xdSW0nVMj",
+      "uuid": "53a1c42e-a847-4a8f-8d24-f6d18a07a99c",
+      "firstName": "Gabriel",
+      "lastName": "Scoot",
+      "username": "GabrielScoot_",
+      "password": "$2a$10$inTpTSWn4cBMdaSwawM6GOLfJ5VlxZScv22cZ.s/kFzpbdKMq0jPS",
       "balance": 0,
-      "createdAt": "2025-08-29T23:23:56.894Z",
-      "modifiedAt": "2025-08-29T23:23:56.894Z"
-    },
-    {
-      "id": "x2krZwuvy",
-      "uuid": "ff6642dd-565b-47dc-b009-edbb2829abd4",
-      "firstName": "Novo",
-      "lastName": "Usuário",
-      "username": "usuario1756513624346",
-      "password": "$2a$10$TstpkTrHrraguoghoUorCuAUmXsjFhmY3OtPRaQNNz3T/3iK2ifIO",
-      "balance": 0,
-      "createdAt": "2025-08-30T00:28:06.901Z",
-      "modifiedAt": "2025-08-30T00:28:06.901Z"
-    },
-    {
-      "id": "YvzkmaUYa",
-      "uuid": "b17d03fa-601a-4e1b-8375-89c6e9b076a7",
-      "firstName": "Novo",
-      "lastName": "Usuário",
-      "username": "usuario1756518875832",
-      "password": "$2a$10$09bpFUYWKBH3zhi/LpBHLulRT0/vsRNBOvVIxbt6oKF8XzpgWPkri",
-      "balance": 0,
-      "createdAt": "2025-08-30T01:55:07.389Z",
-      "modifiedAt": "2025-08-30T01:55:07.389Z"
-    },
-    {
-      "id": "amjMK29uH",
-      "uuid": "a8c43f75-7cb8-457f-a70a-f06d699198fe",
-      "firstName": "Novo",
-      "lastName": "Usuário",
-      "username": "usuario1756519089046",
-      "password": "$2a$10$o3ed.B4bLTbvi4iPZfKl3utLA0zS2E/8klWpCehXM4Y/9kbuPOC0W",
-      "balance": 0,
-      "createdAt": "2025-08-30T01:59:18.508Z",
-      "modifiedAt": "2025-08-30T01:59:18.508Z"
-    },
-    {
-      "id": "ubveoSI8v",
-      "uuid": "078bdd4b-833f-48aa-936a-06e679fb3990",
-      "firstName": "Novo",
-      "lastName": "Usuário",
-      "username": "usuario1756519279315",
-      "password": "$2a$10$FEb6rwcDmXbB3gsNHspeGObeJn1VEWsIFwWyecqyIfFxm4z8x2ic.",
-      "balance": 0,
-      "createdAt": "2025-08-30T02:01:48.026Z",
-      "modifiedAt": "2025-08-30T02:01:48.026Z"
+      "createdAt": "2025-09-06T02:01:05.466Z",
+      "modifiedAt": "2025-09-06T02:01:05.466Z"
     }
   ],
   "contacts": [
