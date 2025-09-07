@@ -1,4 +1,3 @@
-// Defina o selectorList fora do describe para usar em todos os testes
 const selectorList = {
   firstnameInput: "[name='firstName']",
   usernameInput: "[name='username']",  
@@ -9,7 +8,7 @@ const selectorList = {
   errorMessage: '[data-test="signin-error"]',
   confirmPasswordInput: "[name='confirmPassword']",
 };
-
+/*
 describe('RWA - Real World App - Login valido, invalid', () => {
 
   it('Display error message when using invalid credentials', () => {
@@ -34,7 +33,7 @@ describe('RWA - Real World App - Login valido, invalid', () => {
     cy.visit('/signup');
     cy.get(selectorList.firstnameInput).type('Gabriel');
     cy.get(selectorList.lastnameInput).type('Scoot');
-    cy.get(selectorList.usernameInput).type('GabrielScoot_'); // faltava username
+    cy.get(selectorList.usernameInput).type('GabrielScoot_'); 
     cy.get(selectorList.passwordInput).type('teste123');
     cy.get(selectorList.confirmPasswordInput).type('teste123');
     cy.get(selectorList.signupButton).click();
@@ -49,20 +48,33 @@ describe('RWA - Real World App - Login valido, invalid', () => {
     cy.url().should('include', '3000/');
   });
 });
-
+*/
 
 // dashboard
-describe('Login - success', () => {
-  it('should login and redirect to dashboard', () => {
+describe('Registraction - success', () => {
+  it('should login and registro to dashboard', () => {
+    cy.visit('/signup');
+    cy.get(selectorList.firstnameInput).type('Gabriel');
+    cy.get(selectorList.lastnameInput).type('Scoot');
+    cy.get(selectorList.usernameInput).type('GabrielScoot_'); 
+    cy.get(selectorList.passwordInput).type('teste123');
+    cy.get(selectorList.confirmPasswordInput).type('teste123');
+    cy.get(selectorList.signupButton).click();
+    cy.url().should('include', '3000/'); 
     cy.visit('/signin');
     cy.get(selectorList.usernameInput).type('GabrielScoot_');   
     cy.get(selectorList.passwordInput).type('teste123');     
     cy.get(selectorList.signinButton).click();
     cy.url().should('include', '3000/');
+
+   //new transação
+    cy.get("[href='/transaction/new']").click();
+    cy.get("[type='text']").type('Darrel Ortiz');
+    cy.contains('.MuiListItemText-multiline', 'Darrel Ortiz').click();
+    cy.get("[name='amount']").type('500');
+    cy.get("[placeholder='Add a note']").type('deposit');
+    cy.get("[data-test='transaction-create-submit-payment']").click();
+    cy.get("[data-test='new-transaction-create-another-transaction']").click();
     
-    cy.get("[name='bankName']").type('Banco do Brasil');   
-    cy.get("[name='routingNumber']").type('987654321');
-    cy.get("[name='accountNumber']").type('123456789');    
-    cy.get(".css-flggza-MuiGrid-root").click();
   });
 });
