@@ -1,0 +1,13 @@
+{
+  "validUser": {
+    "firstName": "Gabriel",
+    "lastName": "Scoot",
+    "username": "GabrielScoot_",
+    "password": "teste123",
+    "confirmPassword": "teste123"
+  },
+  "invalidUser": {
+    "usernameFail": "testerror",
+    "passwordFail": "error123"
+  }
+}
