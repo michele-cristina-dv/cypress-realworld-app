@@ -81,6 +81,21 @@ describe('RWA - Dashboard e Nova Transação', () => {
     cy.get(selectorList.signinButton).click();
     cy.url().should('include', '3000/');
 
+    // Fluxo de conta bancária (apenas no primeiro login)
+    describe('Fluxo de Conta Bancária', () => {
+      cy.get("body").then(($body) => {
+        if ($body.find("[data-test='user-onboarding-next']").length > 0) {
+          cy.get("[data-test='user-onboarding-next']").click();
+          cy.get("[name='bankName']").type('Banco do Brasil');   
+          cy.get("[name='routingNumber']").type('987654321');
+          cy.get("[name='accountNumber']").type('123456789');    
+          cy.get("[type='submit']").click(); 
+          cy.get("[type='button']").eq(2).click();
+      }
+      });
+    });
+
+    
     // Nova transação
     cy.get("[href='/transaction/new']").click();
     cy.get("[type='text']").type('Darrel Ortiz');
