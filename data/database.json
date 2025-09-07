@@ -41,7 +41,7 @@
       "phoneNumber": "887-309-1593",
       "avatar": "https://avatars.dicebear.com/api/human/_XblMqbuoP.svg",
       "defaultPrivacyLevel": "contacts",
-      "balance": 508880,
+      "balance": 558880,
       "createdAt": "2023-05-21T05:01:54.594Z",
       "modifiedAt": "2024-03-07T14:11:52.161Z"
     },
@@ -866,6 +866,28 @@
       "balance": 0,
       "createdAt": "2025-09-06T23:59:21.527Z",
       "modifiedAt": "2025-09-06T23:59:21.527Z"
+    },
+    {
+      "id": "t3k6JNWz1",
+      "uuid": "232ade6f-7597-445f-8ef8-8a8fad41a502",
+      "firstName": "Gabriel",
+      "lastName": "Scoot",
+      "username": "GabrielScoot_",
+      "password": "$2a$10$42k1spw72QoOfdjK5NDSD.IZDgmsM66pOHX5AC6xAvHmrFoy2NXDi",
+      "balance": 0,
+      "createdAt": "2025-09-07T02:32:46.287Z",
+      "modifiedAt": "2025-09-07T02:32:46.287Z"
+    },
+    {
+      "id": "hlXHwjaRc",
+      "uuid": "f8e86567-5ff7-45d2-b7ad-92fb54b9dabd",
+      "firstName": "Gabriel",
+      "lastName": "Scoot",
+      "username": "GabrielScoot_",
+      "password": "$2a$10$8kYnhcUeRfdFNNbUYMg/cOtIwBZV5VzMZRy8TZ3gDEmjIOSKHGgJq",
+      "balance": 0,
+      "createdAt": "2025-09-07T02:32:58.414Z",
+      "modifiedAt": "2025-09-07T02:32:58.414Z"
     }
   ],
   "contacts": [
@@ -10747,6 +10769,17 @@
       "status": "complete",
       "createdAt": "2025-09-06T23:59:38.075Z",
       "modifiedAt": "2025-09-06T23:59:38.075Z"
+    },
+    {
+      "id": "RHykkJJ9b",
+      "uuid": "d403c4e8-61d1-46c5-bedf-b7f8deac7324",
+      "amount": 50000,
+      "description": "deposit",
+      "receiverId": "_XblMqbuoP",
+      "senderId": "ssKMytBLD",
+      "status": "complete",
+      "createdAt": "2025-09-07T02:33:30.805Z",
+      "modifiedAt": "2025-09-07T02:33:30.805Z"
     }
   ],
   "likes": [
@@ -11403,6 +11436,16 @@
       "isRead": false,
       "createdAt": "2025-09-06T23:59:38.206Z",
       "modifiedAt": "2025-09-06T23:59:38.206Z"
+    },
+    {
+      "id": "1mhXga5yze",
+      "uuid": "8e79fb1d-eb2b-4784-ba12-d8288c1d8743",
+      "userId": "_XblMqbuoP",
+      "transactionId": "RHykkJJ9b",
+      "status": "received",
+      "isRead": false,
+      "createdAt": "2025-09-07T02:33:31.866Z",
+      "modifiedAt": "2025-09-07T02:33:31.866Z"
     }
   ],
   "banktransfers": [
@@ -12025,6 +12068,16 @@
       "type": "withdrawal",
       "createdAt": "2025-09-06T23:59:38.095Z",
       "modifiedAt": "2025-09-06T23:59:38.095Z"
+    },
+    {
+      "id": "eJg6XsAX7",
+      "uuid": "71bae4d7-9b0a-49ea-80a5-315155b446f4",
+      "userId": "ssKMytBLD",
+      "amount": 50000,
+      "transactionId": "RHykkJJ9b",
+      "type": "withdrawal",
+      "createdAt": "2025-09-07T02:33:31.152Z",
+      "modifiedAt": "2025-09-07T02:33:31.152Z"
     }
   ]
 }
